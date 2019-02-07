@@ -18,6 +18,8 @@ export declare class ResizeMonitor extends EventEmitter {
      * ALL window resizing, which can be a huge decrease of system performance.
      *
      * @param pid Process ID
+     *
+     * @throws _RangeError_ if process id is invalid
      */
     constructor(pid: number);
     /**

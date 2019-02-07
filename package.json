@@ -1,14 +1,13 @@
 {
-  "name": "win32-hook-window-resize",
-  "version": "1.0.0",
+  "name": "win32-monitor-window-resize",
+  "version": "1.0.1",
   "description": "Notify when any window resizes/moves, based on Win32 APIs.",
   "main": "./lib/",
-  "repository": "https://github.com/tinyAdapter/node-win32-hook-window-resize.git",
+  "repository": "https://github.com/tinyAdapter/node-win32-monitor-window-resize.git",
   "author": "tinyAdapter <tinyadapter@outlook.com>",
   "license": "MIT",
   "keywords": [
     "win32",
-    "hook",
     "window",
     "resize",
     "move"
