@@ -1,0 +1,31 @@
+{
+  "name": "win32-hook-window-resize",
+  "version": "1.0.0",
+  "description": "Notify when any window resizes/moves, based on Win32 APIs.",
+  "main": "./lib/",
+  "repository": "https://github.com/tinyAdapter/node-win32-hook-window-resize.git",
+  "author": "tinyAdapter <tinyadapter@outlook.com>",
+  "license": "MIT",
+  "keywords": [
+    "win32",
+    "hook",
+    "window",
+    "resize",
+    "move"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && mocha ./test",
+    "dev": "npm run build && node ./test/dev.js"
+  },
+  "devDependencies": {
+    "@types/ffi": "^0.2.1",
+    "@types/node": "^10.12.21",
+    "@types/ref": "^0.0.28",
+    "@types/ref-struct": "^0.0.29",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "ffi": "^2.3.0"
+  }
+}
